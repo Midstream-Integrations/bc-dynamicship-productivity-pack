@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Dynamic Ship Productivity Pack">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 984645767 - Method 2916523024 - NamedType 193132053" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set a QA Inspection Email on the location or on Warehouse Setup first.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MID QA Notification - Method SendReadyForQA - NamedType NoSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 984645767 - Method 2916523024 - NamedType 2679221408" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is ready for QA inspection</source>
+          <note from="Developer" annotates="general" priority="2">%1 = sales order no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MID QA Notification - Method SendReadyForQA - NamedType SubjectTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 984645767 - Method 2916523024 - NamedType 4008849492" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This order is ready for inspection:&lt;br&gt;&lt;br&gt;Sales Order No. - %1&lt;br&gt;Customer Name - %2&lt;br&gt;Customer PO No. - %3&lt;br&gt;Location - %4&lt;br&gt;&lt;br&gt;Item No. - %5&lt;br&gt;Item Description - %6&lt;br&gt;&lt;br&gt;%7For any order issues, please contact the shipping department.</source>
+          <note from="Developer" annotates="general" priority="2">%1..%6 = order details, %7 = license plate item/serial list</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MID QA Notification - Method SendReadyForQA - NamedType BodyTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 984645767 - Method 2916523024 - NamedType 1793901446" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No. - %1&lt;br&gt;Serial No. - %2&lt;br&gt;&lt;br&gt;</source>
+          <note from="Developer" annotates="general" priority="2">%1 = item no., %2 = serial no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MID QA Notification - Method SendReadyForQA - NamedType LPLineTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 984645767 - Method 2916523024 - NamedType 4288424883" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QA has been notified:\Sales Order No. - %1\Customer Name - %2\Customer PO No. - %3\Location - %4</source>
+          <note from="Developer" annotates="general" priority="2">%1..%4 = order details</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MID QA Notification - Method SendReadyForQA - NamedType DoneMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2165421403 - Control 1324820190 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
+          <source>Specifies who is emailed when an order shipping from this location is ready for QA. Leave blank to use the address on Warehouse Setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Location Card QA - Control MID QA Inspection Email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 1992105357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>Specifies the 3rd party shipping address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control MID_ThirdParty_Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 1992105357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>3rd Party Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control MID_ThirdParty_Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 650153094 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>Specifies the 3rd party shipping name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control MID_ThirdParty_Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 650153094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>3rd Party Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control MID_ThirdParty_Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 1581117167 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>Specifies the 3rd party shipping city/state/zip</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control ThirdParty_City - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 1581117167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>3rd Party City/State/ZIP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control ThirdParty_City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 2818306439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>Additional Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control MIDAdditionalInformation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 1673092455 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>Specifies any additional information that the shipper needs to know</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control MID_AdditionalShipperInfo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 1673092455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>Additional Shipper Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control MID_AdditionalShipperInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 187882431 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>Specifies any special instructions for third-party billing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control MID_SpecialInstructions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1698615053 - Control 187882431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583112069">
+          <source>Special Instructions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Options BOL - Control MID_SpecialInstructions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1690948736 - Action 2686573786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2016462574">
+          <source>Open the list of posted sales shipments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Worksheet - Action MIDOpenPostedSalesShipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1690948736 - Action 2686573786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2016462574">
+          <source>Posted Sales Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Worksheet - Action MIDOpenPostedSalesShipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1690948736 - Action 3198954820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2016462574">
+          <source>Email the QA inspection address (Warehouse Setup) that this order is packed and ready for inspection, with item and serial numbers from its license plates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Worksheet - Action MIDReadyForQA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1690948736 - Action 3198954820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2016462574">
+          <source>Ready for QA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Worksheet - Action MIDReadyForQA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1690948736 - Control 3521027800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2016462574">
+          <source>Shows the External Document No. (customer PO) from the warehouse shipment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Worksheet - Control MIDExternalDocNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1690948736 - Control 3521027800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2016462574">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Worksheet - Control MIDExternalDocNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1690948736 - Control 1678592321 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2016462574">
+          <source>Shows the sales order behind the warehouse shipment being packed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Worksheet - Control MIDSalesOrderNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1690948736 - Control 1678592321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2016462574">
+          <source>Sales Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Package Worksheet - Control MIDSalesOrderNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2904739295 - Action 3620054804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>View License Plates associated with this shipment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Posted Sales Shipment LP - Action MIDOpenLicensePlates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2904739295 - Action 3620054804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>View License Plates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Posted Sales Shipment LP - Action MIDOpenLicensePlates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4199642550 - Control 1324820190 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3213244558">
+          <source>Specifies who is emailed when a packer presses Ready for QA on the Package Worksheet, unless the location has its own QA address. Separate several addresses with semicolons.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Warehouse Setup QA - Control MID QA Inspection Email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1447831977 - Control 2653846389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1558066289">
+          <source>Displays the Customer Name based on the Sales Order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Warehouse Shipment List - Control MIDCustomerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1447831977 - Control 2653846389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1558066289">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Warehouse Shipment List - Control MIDCustomerName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1447831977 - Control 3521027800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1558066289">
+          <source>Displays the External Document No. from the Sales Order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Warehouse Shipment List - Control MIDExternalDocNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1447831977 - Control 3521027800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1558066289">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Warehouse Shipment List - Control MIDExternalDocNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1447831977 - Control 1678592321 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1558066289">
+          <source>Displays the Sales Order No. based on the Sales Order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Warehouse Shipment List - Control MIDSalesOrderNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1447831977 - Control 1678592321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1558066289">
+          <source>Sales Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MID Warehouse Shipment List - Control MIDSalesOrderNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3098899423 - Field 1324820190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
+          <source>QA Inspection Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MID Location QA - Field MID QA Inspection Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1698615053 - Field 1673092455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3711501440">
+          <source>Additional Shipper Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MID Package Options BOL - Field MID_AdditionalShipperInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1698615053 - Field 187882431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3711501440">
+          <source>Special Instructions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MID Package Options BOL - Field MID_SpecialInstructions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1698615053 - Field 1992105357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3711501440">
+          <source>3rd Party Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MID Package Options BOL - Field MID_ThirdParty_Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1698615053 - Field 4131709426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3711501440">
+          <source>3rd Party City/State/ZIP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MID Package Options BOL - Field MID_ThirdParty_CityStateZIP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1698615053 - Field 650153094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3711501440">
+          <source>3rd Party Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MID Package Options BOL - Field MID_ThirdParty_Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4199642550 - Field 1324820190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+          <source>QA Inspection Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MID Warehouse Setup QA - Field MID QA Inspection Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2143902865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dynamic Ship Productivity Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet MID DSHIP PACK - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
